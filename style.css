@@ -1,0 +1,82 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   display: grid;
+   grid-template-rows: 100px  1fr 100px;
+   padding: 70px 70px 24px 70px;
+   background-image: url(4564517-sky-cloud-daily-illustration-vetor.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+head{
+    font-family: 'Righteous', cursive;
+}
+main{
+
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+title{
+    position: relative;
+    grid-column: 1/-1;
+    place-self: center;
+}
+.title__text{
+    font-size: 20px;
+    color: pink;
+
+}
+
+.title__transparent{
+     position: absolute;
+     font-size: 27vw;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% -80%);
+     color: darkcyan;
+     z-index: -1;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.description_text{
+    font-size: 20px;
+    width: 500px;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Cina-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 650px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_text {
+    text-align: center;
+    font-size: 60px;
+}
+
+
